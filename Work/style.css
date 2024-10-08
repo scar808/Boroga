@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+.card {
+    background-color: #e4e4e7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 80%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.sub {
+    background-color: #d4d4d8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 200px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stf {
+    display: flex;
+    align-items: center;
+}
+
+
+.imga {
+    max-width: 158px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+}
+.Tsu {
+    display: flex; /* Make the container a flex container */
+    flex-direction: column; /* Stack the image and the card vertically */
+    align-items: center; /* Center them horizontally */
+    gap: 0px; /* Space between the image and the card */
+}
+
+.h {
+      margin: 5px;
+}
